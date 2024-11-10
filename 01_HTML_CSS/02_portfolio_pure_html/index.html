@@ -12,6 +12,7 @@
             <li><a href="#">Content</a></li>
             <li><a href="#">Projects</a></li>
             <li><a href="#">About</a></li>
+            <li><a href="signin.html">Sign in</a></li>
         </ul>
     </nav>
     <header>
@@ -42,9 +43,12 @@
         <p>Contact me</p>
         <form action="#">
             <legend>Add your info:</legend>
-            <input type="text" name="name" id="name" placeholder="Name"><br>
-            <input type="password" name="" id="password" placeholder="Password"><br>
-            <input type="email" name="" id="" placeholder="Email"><br>
+            <label for="name">Name</label>
+            <input type="text" name="name" id="name" placeholder="Name" required>
+            <br>
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" placeholder="Email" required>
+            <br>
             <button>Submit</button>
         </form>
     </section>
